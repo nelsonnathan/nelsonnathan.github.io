@@ -8,7 +8,7 @@
     <title>Super Talented Web Guy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -21,11 +21,11 @@
             Hey there, I am <span style="font-weight: 900">Nathan Nelson</span>
         </h1>
 
-        <p class="sectionSubtitle">full-stack dev</p>
+        <h4 class="sectionSubtitle">full-stack dev</h4>
 
         
         <div id="profilePic">
-            <img id="me" src="image/IMG_1376.jpg" alt="Nate's Profile Pic" width="30%" height="30%">
+            <img id="me" src="image/IMG_1376.jpg" alt="Nate's Profile Pic">
         </div>
 
     </section>
@@ -33,7 +33,7 @@
     <section class="aboutMe" id="about">
         <h2 class="sectionTitle">about me</h2>
 
-        <p class="sectionSubtitle">developer based out of Sandy, UT</p>
+        <h4 class="sectionSubtitle">developer based out of Sandy, UT</h4>
 
         <div class="about">
             <p>
@@ -53,16 +53,27 @@
     <section class="mySkills" id="skills">
         <h2 class="sectionTitle">my skills</h2>
 
-        <p class="sectionSubtitle">problem solving | computer programming | communication | attention to detail | teamwork</p>
+        <h4 class="sectionSubtitle">problem solving | computer programming | communication | attention to detail | teamwork</h4>
 
         <div class="skill">
 
-            <img src="image/javascript.png" alt="" class="skillImage" height="15%" width="15%">
-            <img src="image/nodeJS.png" alt="" class="skillImage" height="15%" width="15%">
-            <img src="image/html.png" alt="" class="skillImage" height="15%" width="15%">
-            <img src="image/css.png" alt="" class="skillImage" height="15%" width="15%">
-            <img src="image/sql.png" alt="" class="skillImage" height="15%" width="15%">
-            <img src="image/git.png" alt="" class="skillImage" height="15%" width="15%">
+            <img src="image/javascript.png" alt="" class="skillImage" id="js" height="15%" width="15%">
+            <!-- <label for="js">JavaScript</label> -->
+            <img src="image/nodeJS.png" alt="" class="skillImage" id="njs" height="15%" width="15%">
+            <!-- <label for="njs">Node JS</label> -->
+            <img src="image/html.png" alt="" class="skillImage" id="html" height="15%" width="15%">
+            <!-- <label for="html">HTML</label> -->
+            <img src="image/css.png" alt="" class="skillImage" id="css" height="15%" width="15%">
+            <!-- <label for="css">CSS</label> -->
+            <img src="image/sql.png" alt="" class="skillImage" id="sql" height="15%" width="15%">
+            <!-- <label for="sql">SQL</label> -->
+            <img src="image/git.png" alt="" class="skillImage" id="git" height="15%" width="15%">
+            <!-- <label for="js">JavaScript</label>
+            <label for="njs">Node JS</label>
+            <label for="html">HTML</label>
+            <label for="css">CSS</label>
+            <label for="sql">SQL</label>
+            <label for="git">Git</label> -->
 
         </div>
 
@@ -71,19 +82,22 @@
     <section class="myProjects" id="projects">
         <h2 class="sectionTitle">my projects</h2>
 
-        <p class="sectionSubtitle">sorting algorithm visualizations</p>
+        <h4 class="sectionSubtitle">sorting algorithm visualizations</h4>
 
-        <iframe width="40%" height="40%" src="https://www.youtube.com/embed/vyu6OtVvXVA"></iframe>
+        <div class="videoContainer">
+            <iframe class="video" src="https://www.youtube.com/embed/vyu6OtVvXVA"></iframe>
+        </div>
+        
 
     </section>
 
     <footer class="contactInfo" id="contact">
         <h2 class="sectionTitle">contact me</h2>
-        <p class="sectionSubtitle">
-            <a href="mailto:nathan.nelson99@gmail.com" class="contactLink">email me |</a>
+        <div class="sectionSubtitle">
+            <a href="mailto:nathan.nelson99@gmail.com" class="contactLink">email |</a>
             <a href="https://github.com/nelsonnathan"> github |</a>
             <a href="https://www.linkedin.com/in/nathan-nelson-b04a1494/"> linkedin</a>
-        </p>
+        </div>
     </footer>
 </body>
 </html>
