@@ -8,31 +8,77 @@
     <title>Super Talented Web Guy</title>
 </head>
 <body>
-    <div>
-        <h1>
-            Nathan Nelson | Developer 
-            <a id="about">About Me</a>
-            <a id="skills">Skills</a>
-            <a id="projects">Projects</a>
-            <a id="contact">Contact</a>
+    <header>
+        <div class="logo">
+            <img src="image/nathannelson.png" alt="">
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li class="navItem"><a href="#home" class="navLink">home</a></li>
+                <li class="navItem"><a href="#about" class="navLink">about</a></li>
+                <li class="navItem"><a href="#skills" class="navLink">skills</a></li>
+                <li class="navItem"><a href="#projects" class="navLink">projects</a></li>
+                <li class="navItem"><a href="#contact" class="navLink">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="intro" id="home">
+        <h1 class="sectionTitle">
+            Hey there, I am <strong>Nathan Nelson</strong>
         </h1>
 
-    </div>
-    
-    <section>
-        <div>
-            <img src="image/IMG_1376.jpg" alt="Nate's Profile Pic" height="400" width="300">
+        <p class="sectionSubtitle">developer</p>
+
+        <div id="profilePic">
+            <img id="me" src="image/IMG_1376.jpg" alt="Nate's Profile Pic" height="400" width="300">
         </div>
-        <h2>Hey there, I'm Nate</h2>
-        <p>About Me</p>
-        <p>
-            I am a student at the University of Utah, studying Computer Science. I'm also enrolled at 
-            DevMountain, working to increase my technical abilities to aid in the pursuit of a career
-            in software engineering. 
-            I am always ready for new challenges and constructive feedback. I'm open minded and learn quickly.
-            I want to become a team player and dedicate my skills and talents toward developing high quality 
-            products.
-        </p>
+
+    </section>
+
+    <section class="aboutMe" id="about">
+        <h2 class="sectionTitle">about me</h2>
+
+        <div class="about">
+            <p>
+                I am a student at the University of Utah, studying Computer Science. I'm also enrolled at 
+                DevMountain, working to increase my technical abilities to aid in the pursuit of a career
+                in software engineering. 
+            </p>
+            <p>
+                I am always ready for new challenges and constructive feedback. I'm open minded and learn quickly.
+                I want to become a team player and dedicate my skills and talents toward developing high quality 
+                products.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="mySkills" id="skills">
+        <h2 class="sectionTitle">my skills</h2>
+
+        <div class="skill">
+
+            <img src="image/javascript.png" alt="" class="skillImage">
+            <img src="image/nodeJS.png" alt="" class="skillImage">
+            <img src="image/html.png" alt="" class="skillImage">
+            <img src="image/css.png" alt="" class="skillImage">
+            <img src="image/sql.png" alt="" class="skillImage">
+            <img src="image/git.png" alt="" class="skillImage">
+
+        </div>
+
+    </section>
+
+    <section class="myProjects" id="projects">
+        <h2 class="sectionTitle">my projects</h2>
+
+    </section>
+
+    <section class="contactInfo" id="contact">
+        <h2 class="sectionTitle">contact me</h2>
+
     </section>
 </body>
 </html>

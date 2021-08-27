@@ -1,0 +1,13 @@
+.heading {
+    display: flex;
+}
+
+.heading .headers {
+    justify-content: space-between;
+}
+
+#me {
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
