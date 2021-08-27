@@ -7,8 +7,8 @@
 :root {
     --ff-mont: 'Montserrat', sans-serif;
 
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
+    --fs-h1: 2rem;
+    --fs-h2: 1.5rem;
     --fs-body: 1rem;
 
     --fw-regular: 300;
@@ -17,8 +17,8 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;      
+        --fs-h1: 3rem;
+        --fs-h2: 2.5rem;      
         --fs-body: 1rem;
     }
 }
@@ -47,11 +47,8 @@ image {
     margin-right: auto;
 }
 
-.sectionTitle span {
-    display: block;
-}
 
-h1, 
+h1,
 h2 {
     line-height: 1.1;
     margin: 0;
