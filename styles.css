@@ -69,7 +69,14 @@ h2 { font-size: var(--fs-h2) }
     
 }
 
-nav { display: none }
+footer {
+    padding: 5em 2em;
+}
+
+nav { 
+    display: flex;
+    flex-direction: row; 
+}
 
 .intro {
     position: relative;
