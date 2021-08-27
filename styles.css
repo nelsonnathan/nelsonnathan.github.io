@@ -51,7 +51,7 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 
 .sectionTitle {
-
+    margin-bottom: .25em;
 }
 
 .sectionSubtitle {
