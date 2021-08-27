@@ -57,9 +57,6 @@ h2 {
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 
-h4 {
-    font-weight: 900;
-}
 
 .sectionTitle {
     margin-bottom: .25em;
@@ -72,6 +69,15 @@ h4 {
     font-size: var(--fs);
     background:mediumspringgreen;
     
+}
+
+#projects a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+#projects a:hover {
+    text-decoration: underline;
 }
 
 .videoContainer {
@@ -92,6 +98,11 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: darkslategrey;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 nav { 
